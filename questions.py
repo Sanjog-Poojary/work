@@ -5,5 +5,6 @@ def rem(l, word):
         return l
 
 l =["Harry", "Rohan","Shubham", "an"]
-
-print(rem(l, "an"))
+print(l)
+var = input("Please enter the word you don't want:")
+print(rem(l, var))
